@@ -3,27 +3,30 @@
 Ph.D. Candidate in Industrial Engineering  
 Polytechnique Montréal · GERAD
 
-I work on large-scale optimization and mixed-integer programming, with a focus on algorithmic methods for open-pit mine production scheduling. My research combines mathematical modeling, cutting planes, relax-and-repair heuristics, rolling-horizon strategies, and large neighborhood search to solve industrial-scale decision problems.
+I work on **large-scale optimization**, **mixed-integer programming**, and **algorithm design** for industrial decision problems. My current research focuses on **open-pit mine production scheduling**, where I develop stronger mathematical formulations and scalable solution methods such as cutting planes, relax-and-repair frameworks, rolling-horizon methods, and Large Neighborhood Search.
 
-**Research interests:** Operations Research, mixed-integer programming, large-scale optimization, heuristic algorithms, machine learning for optimization, transportation and aviation applications.
+My broader interests include **operations research for mining, transportation, and aviation systems**, as well as the integration of **machine learning with optimization**.
 
-[Research](research.md) | [Publications](publications.md) | [Projects](projects.md) | [CV](cv.md)
+[Research](research) | [Projects](projects) | [Publications](publications) | [CV](cv) | [Contact](contact)
 
 ---
 
-## About Me
+## Professional Profile
 
-My research focuses on solving complex industrial decision problems using mathematical optimization and scalable algorithmic frameworks. I am particularly interested in mixed-integer programming, model strengthening, decomposition, and heuristic methods for large real-world applications.
+I am a Ph.D. researcher at **Polytechnique Montréal** and **GERAD**, working on industrial-scale optimization problems with real computational and operational challenges. My work combines mathematical modeling, exact methods, heuristics, and research software development in **C++** and **Python**.
+
+I aim to build optimization methods that are both **theoretically strong** and **practically useful** for real-world planning systems.
 
 ---
 
 ## Current Focus
 
+- Mixed-integer programming and large-scale optimization
 - Open-pit mine production scheduling
-- Cutting planes for large-scale MILP
-- Relax-and-repair frameworks
-- Rolling horizon and LNS heuristics
-- Optimization-oriented software development
+- Cutting planes and model strengthening
+- Relax-and-repair and rolling-horizon methods
+- Large Neighborhood Search
+- Machine learning for optimization
 
 ---
 
@@ -31,5 +34,14 @@ My research focuses on solving complex industrial decision problems using mathem
 
 - Ph.D. Candidate in Industrial Engineering at Polytechnique Montréal
 - Researcher at GERAD
-- Published work in *Computers & Operations Research*
-- Strong background in C++, Python, and optimization software
+- Research interests include operations research, mining operations, mine scheduling, and flight operations
+- Student Representative at GERAD
+- Author of a 2026 *Computers & Operations Research* paper on new cutting planes for open-pit mine scheduling
+
+---
+
+## Quick Links
+
+- [LinkedIn](https://www.linkedin.com/in/venkatakhilankem/)
+- [Google Scholar](https://scholar.google.com/citations?user=VUWUWPcAAAAJ&hl=en)
+- [GERAD Profile](https://www.gerad.ca/en/people/venkat-akhil-ankem)

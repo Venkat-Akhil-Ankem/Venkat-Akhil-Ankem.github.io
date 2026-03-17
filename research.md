@@ -1,25 +1,28 @@
 # Research
 
-My doctoral research focuses on the **Open-Pit Mine Production Scheduling Problem (OPMPSP)**, a large-scale mixed-integer optimization problem arising in mining operations.
+[Home](index) | [Projects](projects) | [Publications](publications) | [CV](cv) | [Contact](contact)
 
-These models can become extremely large and difficult to solve in practice. My work aims to improve solvability through stronger formulations and scalable heuristic frameworks.
+My doctoral research focuses on the **Open-Pit Mine Production Scheduling Problem (OPMPSP)**, a large-scale mixed-integer optimization problem arising in mining operations. These problems are challenging because they involve a large number of decisions, operational constraints, and long planning horizons.
 
-## Main research themes
+My work aims to improve solvability through stronger formulations and scalable algorithmic frameworks.
+
+## Main Research Themes
 
 - Mixed-integer programming
 - Cutting planes and model strengthening
 - Relax-and-repair methods
 - Rolling-horizon decomposition
 - Large Neighborhood Search
-- Industrial-scale optimization
+- Research software for large-scale optimization
 
-## Applications
+## Application Areas
 
-- Open-pit mine production scheduling
+- Mining operations
+- Mine production scheduling
 - Transportation and logistics
-- Aviation operations
-- Energy and sustainability systems
+- Flight and aviation operations
+- Large industrial planning systems
 
-## Research vision
+## Research Direction
 
-My goal is to develop optimization algorithms that can solve large real-world decision problems efficiently and robustly, combining mathematical optimization, computation, and data-driven ideas.
+My goal is to develop optimization methods that bridge the gap between **mathematical strength** and **practical deployability**, with an emphasis on large industrial applications where exact methods alone are often not sufficient.

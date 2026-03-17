@@ -1,15 +1,28 @@
 # CV
 
-You can view or download my curriculum vitae below.
+[Home](index) | [Research](research) | [Projects](projects) | [Publications](publications) | [Contact](contact)
 
-[Download CV](./assets/pdf/Venkat_Akhil_Ankem_CV.pdf)
+You can download my CV below.
 
-## Summary
+## Download
+[Download CV (PDF)](/assets/pdf/Venkat_Akhil_Ankem_CV.pdf)
 
-Ph.D. Candidate in Industrial Engineering at Polytechnique Montréal, specializing in operations research, mixed-integer programming, and large-scale industrial optimization.
+## Professional Summary
 
-Research interests include:
-- large-scale optimization
+Ph.D. Candidate in Industrial Engineering at Polytechnique Montréal and researcher at GERAD, specializing in operations research, mixed-integer programming, and large-scale industrial optimization.
+
+My work combines:
 - mathematical modeling
-- heuristic algorithms
-- machine learning for optimization
+- cutting planes and exact methods
+- heuristic frameworks
+- large-scale computational experimentation
+- optimization software development in C++ and Python
+
+## Positioning
+
+I am particularly interested in roles related to:
+- optimization science
+- operations research
+- decision support systems
+- research software engineering
+- optimization and machine learning

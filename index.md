@@ -1,21 +1,20 @@
 # Venkat Akhil Ankem
 
 Ph.D. Candidate in Industrial Engineering  
-Polytechnique Montréal · GERAD  
+Polytechnique Montréal · GERAD
 
-Operations Research · Large-Scale Optimization · Mixed-Integer Programming  
+**Operations Research · Large-Scale Optimization · Mixed-Integer Programming**
 
-I develop **scalable optimization algorithms and research software** for complex industrial decision problems. My work focuses on **open-pit mine production scheduling**, one of the most challenging large-scale combinatorial optimization problems in practice.
+I develop **scalable optimization algorithms and research software** for complex industrial decision problems. My work focuses on **open-pit mine production scheduling**, where I study and implement mathematically strong and computationally scalable solution methods for large real-world planning systems.
 
 My research combines:
-- mathematical optimization (MILP)
+
+- mixed-integer programming (MILP)
 - cutting planes and model strengthening
 - relax-and-repair frameworks
 - rolling-horizon methods
 - Large Neighborhood Search (LNS)
 - emerging integration of machine learning with optimization
-
----
 
 [Research](research) | [Projects](projects) | [Publications](publications) | [CV](cv) | [Contact](contact)
 
@@ -23,19 +22,20 @@ My research combines:
 
 ## Professional Profile
 
-I am a Ph.D. researcher at **Polytechnique Montréal** and **GERAD**, working on industrial-scale optimization problems with real computational and operational challenges.
+I am a Ph.D. researcher at **Polytechnique Montréal** and **GERAD**, working on large-scale industrial optimization problems with substantial computational and operational challenges.
 
-I build **optimization models, algorithms, and software systems** using **C++ and Python**, with a strong focus on scalability and real-world applicability.
+I build optimization models, algorithms, and software systems in **C++** and **Python**, with a strong emphasis on **scalability**, **reproducible computational experiments**, and **real-world applicability**.
 
 ---
 
 ## Key Highlights
 
-- Ph.D. Candidate in Industrial Engineering (Operations Research)
+- Ph.D. Candidate in Industrial Engineering at Polytechnique Montréal
 - Researcher at GERAD
-- Published in *Computers & Operations Research (2026)*
-- Expertise in large-scale mixed-integer programming
-- Experience with industrial-scale mining optimization problems
+- Author of a 2026 paper in *Computers & Operations Research*
+- Expertise in large-scale mixed-integer optimization
+- Experience developing optimization software for industrial-scale planning problems
+- Interest in optimization, research engineering, and OR + ML applications
 
 ---
 
@@ -53,11 +53,11 @@ I build **optimization models, algorithms, and software systems** using **C++ an
 
 ## Selected Links
 
-- 🌐 GitHub: https://github.com/Venkat-Akhil-Ankem
-- 💼 LinkedIn: https://www.linkedin.com/in/venkatakhilankem/
-- 📚 Google Scholar: https://scholar.google.com/citations?user=VUWUWPcAAAAJ&hl=en
-- 🆔 ORCID: https://orcid.org/0000-0002-3957-3784
-- 🏫 GERAD Profile: https://www.gerad.ca/en/people/venkat-akhil-ankem
+- [GitHub](https://github.com/Venkat-Akhil-Ankem)
+- [LinkedIn](https://www.linkedin.com/in/venkatakhilankem/)
+- [Google Scholar](https://scholar.google.com/citations?user=VUWUWPcAAAAJ&hl=en)
+- [ORCID](https://orcid.org/0000-0002-3957-3784)
+- [GERAD Profile](https://www.gerad.ca/en/people/venkat-akhil-ankem)
 
 ---
 
@@ -69,4 +69,4 @@ I am interested in roles related to:
 - Operations Research Scientist
 - Research Engineer
 - Decision Support Systems
-- Optimization + Machine Learning applications
+- Applied Optimization and Machine Learning

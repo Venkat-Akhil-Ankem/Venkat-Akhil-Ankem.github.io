@@ -3,7 +3,7 @@
 [Home](index) | [Research](research) | [Publications](publications) | [CV](cv) | [Contact](contact)
 
 ## Open-Pit Mine Scheduling Optimizer
-Large-scale optimization models and algorithms for long-term mine planning.
+Large-scale optimization models and solution methods for long-term mine planning.
 
 **Key Features**
 - mixed-integer programming formulation
@@ -19,7 +19,7 @@ C++, Gurobi, OpenMP
 ---
 
 ## Relax-and-Repair Optimization Framework
-Framework for generating feasible solutions to large-scale MILP problems.
+A framework for generating feasible solutions for difficult large-scale MILP models.
 
 **Core Concepts**
 - constraint relaxation
@@ -29,13 +29,14 @@ Framework for generating feasible solutions to large-scale MILP problems.
 
 ---
 
-## Large Neighborhood Search (LNS) Methods
+## Large Neighborhood Search Methods
 Implementation of LNS for large combinatorial optimization problems.
 
 **Includes**
-- destroy/repair operators
+- destroy and repair operators
 - adaptive search strategies
 - large-scale neighborhood exploration
+- improvement-based optimization workflows
 
 ---
 
@@ -44,23 +45,26 @@ Development of modular optimization codebases for:
 
 - large-scale MILP models
 - heuristic integration
+- warm starts and restart workflows
 - computational experimentation
+- industrial optimization studies
 
 ---
 
 ## Machine Learning for Optimization
-Exploration of ML techniques to enhance optimization performance.
+Exploration of machine learning techniques to enhance optimization performance.
 
 **Directions**
 - learned heuristics
 - solver guidance
 - intelligent initialization
+- data-driven decision support
 
 ---
 
-## Future Directions
+## Future Application Directions
 
 - Transportation optimization
-- Airline operations
+- Airline and flight operations
 - Sustainable energy systems
-- Data-driven optimization methods
+- Data-driven industrial optimization

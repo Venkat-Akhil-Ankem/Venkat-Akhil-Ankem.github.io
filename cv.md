@@ -4,7 +4,7 @@
 
 ## Download CV
 
-📄 [Download CV (PDF)](/assets/pdf/Venkat_Akhil_Ankem_CV.pdf)
+[Download CV (PDF)](/assets/pdf/Venkat_Akhil_Ankem_CV.pdf)
 
 ---
 
@@ -18,7 +18,7 @@ My work combines:
 - cutting planes and model strengthening
 - heuristic frameworks
 - large-scale computational experimentation
-- optimization software development (C++, Python)
+- optimization software development in C++ and Python
 
 ---
 
@@ -29,7 +29,7 @@ My work combines:
 - Algorithm design
 - Heuristic and metaheuristic methods
 - Research software development
-- Optimization + machine learning integration
+- Optimization and machine learning integration
 
 ---
 
@@ -39,4 +39,4 @@ My work combines:
 - Operations Research roles
 - Research Engineering
 - Decision Support Systems
-- Applied AI + Optimization
+- Applied AI and Optimization

@@ -5,10 +5,12 @@
 My doctoral research focuses on the **Open-Pit Mine Production Scheduling Problem (OPMPSP)**, a large-scale mixed-integer optimization problem arising in mining operations.
 
 These problems involve:
-- massive decision spaces
-- complex precedence constraints
-- multi-period planning
+
+- very large decision spaces
+- complex precedence relationships
+- multi-period planning decisions
 - operational and economic trade-offs
+- substantial computational difficulty at industrial scale
 
 ---
 
@@ -17,10 +19,11 @@ These problems involve:
 My work focuses on improving solvability through:
 
 - **Cutting planes** for strengthening MILP formulations
-- **Extended formulations** for better model structure
-- **Relax-and-repair frameworks** for fast feasible solutions
+- **Extended formulations** for improving model structure
+- **Relax-and-repair frameworks** for rapidly obtaining feasible solutions
 - **Rolling-horizon decomposition**
 - **Large Neighborhood Search (LNS)** for solution improvement
+- **Research software development** for large computational studies
 
 ---
 
@@ -30,7 +33,8 @@ My work focuses on improving solvability through:
 - Large-scale optimization
 - Combinatorial optimization
 - Heuristics and metaheuristics
-- Research software development
+- Algorithm design
+- Research software engineering
 
 ---
 
@@ -48,8 +52,8 @@ My work focuses on improving solvability through:
 
 My goal is to develop optimization methods that are:
 
-- mathematically strong  
-- computationally scalable  
-- practically deployable  
+- mathematically strong
+- computationally scalable
+- practically deployable
 
-with applications in large industrial systems.
+for large industrial systems where exact methods, heuristics, and software design must work together.

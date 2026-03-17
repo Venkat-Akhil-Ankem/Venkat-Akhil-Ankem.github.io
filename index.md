@@ -1,11 +1,21 @@
 # Venkat Akhil Ankem
 
 Ph.D. Candidate in Industrial Engineering  
-Polytechnique Montréal · GERAD
+Polytechnique Montréal · GERAD  
 
-I work on **large-scale optimization**, **mixed-integer programming**, and **algorithm design** for industrial decision problems. My current research focuses on **open-pit mine production scheduling**, where I develop stronger mathematical formulations and scalable solution methods such as cutting planes, relax-and-repair frameworks, rolling-horizon methods, and Large Neighborhood Search.
+Operations Research · Large-Scale Optimization · Mixed-Integer Programming  
 
-My broader interests include **operations research for mining, transportation, and aviation systems**, as well as the integration of **machine learning with optimization**.
+I develop **scalable optimization algorithms and research software** for complex industrial decision problems. My work focuses on **open-pit mine production scheduling**, one of the most challenging large-scale combinatorial optimization problems in practice.
+
+My research combines:
+- mathematical optimization (MILP)
+- cutting planes and model strengthening
+- relax-and-repair frameworks
+- rolling-horizon methods
+- Large Neighborhood Search (LNS)
+- emerging integration of machine learning with optimization
+
+---
 
 [Research](research) | [Projects](projects) | [Publications](publications) | [CV](cv) | [Contact](contact)
 
@@ -13,35 +23,50 @@ My broader interests include **operations research for mining, transportation, a
 
 ## Professional Profile
 
-I am a Ph.D. researcher at **Polytechnique Montréal** and **GERAD**, working on industrial-scale optimization problems with real computational and operational challenges. My work combines mathematical modeling, exact methods, heuristics, and research software development in **C++** and **Python**.
+I am a Ph.D. researcher at **Polytechnique Montréal** and **GERAD**, working on industrial-scale optimization problems with real computational and operational challenges.
 
-I aim to build optimization methods that are both **theoretically strong** and **practically useful** for real-world planning systems.
+I build **optimization models, algorithms, and software systems** using **C++ and Python**, with a strong focus on scalability and real-world applicability.
 
 ---
 
-## Current Focus
+## Key Highlights
 
-- Mixed-integer programming and large-scale optimization
-- Open-pit mine production scheduling
+- Ph.D. Candidate in Industrial Engineering (Operations Research)
+- Researcher at GERAD
+- Published in *Computers & Operations Research (2026)*
+- Expertise in large-scale mixed-integer programming
+- Experience with industrial-scale mining optimization problems
+
+---
+
+## Research Focus
+
+- Mixed-integer programming (MILP)
+- Large-scale optimization
 - Cutting planes and model strengthening
-- Relax-and-repair and rolling-horizon methods
+- Relax-and-repair frameworks
+- Rolling-horizon heuristics
 - Large Neighborhood Search
 - Machine learning for optimization
 
 ---
 
-## Selected Highlights
+## Selected Links
 
-- Ph.D. Candidate in Industrial Engineering at Polytechnique Montréal
-- Researcher at GERAD
-- Research interests include operations research, mining operations, mine scheduling, and flight operations
-- Student Representative at GERAD
-- Author of a 2026 *Computers & Operations Research* paper on new cutting planes for open-pit mine scheduling
+- 🌐 GitHub: https://github.com/Venkat-Akhil-Ankem
+- 💼 LinkedIn: https://www.linkedin.com/in/venkatakhilankem/
+- 📚 Google Scholar: https://scholar.google.com/citations?user=VUWUWPcAAAAJ&hl=en
+- 🆔 ORCID: https://orcid.org/0000-0002-3957-3784
+- 🏫 GERAD Profile: https://www.gerad.ca/en/people/venkat-akhil-ankem
 
 ---
 
-## Quick Links
+## Career Interests
 
-- [LinkedIn](https://www.linkedin.com/in/venkatakhilankem/)
-- [Google Scholar](https://scholar.google.com/citations?user=VUWUWPcAAAAJ&hl=en)
-- [GERAD Profile](https://www.gerad.ca/en/people/venkat-akhil-ankem)
+I am interested in roles related to:
+
+- Optimization Scientist
+- Operations Research Scientist
+- Research Engineer
+- Decision Support Systems
+- Optimization + Machine Learning applications

@@ -6,17 +6,27 @@
 
 **Venkat Akhil Ankem, Guy Desaulniers, Michel Gamache, Vincent Raymond**  
 *New cutting planes for open-pit mine scheduling with multi-period block extraction*  
-**Computers & Operations Research**, Volume 189, 2026, Article 107408.  
-DOI: [10.1016/j.cor.2026.107408](https://doi.org/10.1016/j.cor.2026.107408)
+**Computers & Operations Research**, 2026  
 
-## Research Interests Reflected in Publications
+---
 
-My work currently lies at the intersection of:
-- operations research
-- mining operations
-- mine scheduling
-- industrial-scale optimization
+## Research Areas Reflected in Publications
 
-## Conference and Research Activity
+- Operations Research  
+- Mining Operations  
+- Mine Scheduling  
+- Large-Scale Optimization  
 
-I have also been active in the optimization research community through conference participation and academic service.
+---
+
+## Ongoing Work
+
+- Relax-and-repair frameworks for mine scheduling  
+- Rolling-horizon and LNS-based improvement methods  
+- Scalable optimization frameworks for industrial applications  
+
+---
+
+## Academic Activity
+
+Active participation in optimization research community, including conferences and collaborative research projects.

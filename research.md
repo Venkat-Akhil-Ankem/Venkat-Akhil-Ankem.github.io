@@ -2,27 +2,54 @@
 
 [Home](index) | [Projects](projects) | [Publications](publications) | [CV](cv) | [Contact](contact)
 
-My doctoral research focuses on the **Open-Pit Mine Production Scheduling Problem (OPMPSP)**, a large-scale mixed-integer optimization problem arising in mining operations. These problems are challenging because they involve a large number of decisions, operational constraints, and long planning horizons.
+My doctoral research focuses on the **Open-Pit Mine Production Scheduling Problem (OPMPSP)**, a large-scale mixed-integer optimization problem arising in mining operations.
 
-My work aims to improve solvability through stronger formulations and scalable algorithmic frameworks.
+These problems involve:
+- massive decision spaces
+- complex precedence constraints
+- multi-period planning
+- operational and economic trade-offs
 
-## Main Research Themes
+---
+
+## Research Contributions
+
+My work focuses on improving solvability through:
+
+- **Cutting planes** for strengthening MILP formulations
+- **Extended formulations** for better model structure
+- **Relax-and-repair frameworks** for fast feasible solutions
+- **Rolling-horizon decomposition**
+- **Large Neighborhood Search (LNS)** for solution improvement
+
+---
+
+## Research Themes
 
 - Mixed-integer programming
-- Cutting planes and model strengthening
-- Relax-and-repair methods
-- Rolling-horizon decomposition
-- Large Neighborhood Search
-- Research software for large-scale optimization
+- Large-scale optimization
+- Combinatorial optimization
+- Heuristics and metaheuristics
+- Research software development
+
+---
 
 ## Application Areas
 
 - Mining operations
 - Mine production scheduling
 - Transportation and logistics
-- Flight and aviation operations
-- Large industrial planning systems
+- Aviation and flight operations
+- Industrial decision support systems
 
-## Research Direction
+---
 
-My goal is to develop optimization methods that bridge the gap between **mathematical strength** and **practical deployability**, with an emphasis on large industrial applications where exact methods alone are often not sufficient.
+## Research Vision
+
+My goal is to develop optimization methods that are:
+
+- mathematically strong  
+- computationally scalable  
+- practically deployable  
+
+with applications in large industrial systems.

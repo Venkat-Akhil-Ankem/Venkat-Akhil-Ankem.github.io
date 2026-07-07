@@ -3,7 +3,7 @@
 Ph.D. Candidate in Industrial Engineering  
 Polytechnique Montréal · GERAD
 
-**Operations Research · Large-Scale Optimization · Mixed-Integer Programming**
+**Operations Research · Large-Scale Optimization · Applied Machine Learning**
 
 I develop **scalable optimization algorithms and research software** for complex industrial decision problems. My work focuses on **open-pit mine production scheduling**, where I study and implement mathematically strong and computationally scalable solution methods for large real-world planning systems.
 

@@ -12,6 +12,8 @@
 
 Ph.D. Candidate in Industrial Engineering at Polytechnique Montréal and researcher at GERAD, specializing in operations research, large-scale optimization, and applied machine learning.
 
+MITACS-funded industrial collaborator with Rio Tinto, where cutting-plane and rolling-horizon methods achieved a 90% reduction in mine-scheduling computation time. Author of a 2026 paper in *Computers & Operations Research*, with a second paper under review at *Engineering Optimization*. Maintains a public portfolio of applied ML, GenAI, and RL [projects on GitHub](https://github.com/Venkat-Akhil-Ankem).
+
 My work combines:
 
 - mixed-integer programming

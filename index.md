@@ -14,7 +14,7 @@ My research combines:
 - relax-and-repair frameworks
 - rolling-horizon methods
 - Large Neighborhood Search (LNS)
-- emerging integration of machine learning with optimization
+- graph neural networks and machine learning for optimization
 
 [Research](research) | [Projects](projects) | [Publications](publications) | [CV](cv) | [Contact](contact)
 
@@ -32,10 +32,11 @@ I build optimization models, algorithms, and software systems in **C++** and **P
 
 - Ph.D. Candidate in Industrial Engineering at Polytechnique Montréal
 - Researcher at GERAD
-- Author of a 2026 paper in *Computers & Operations Research*
+- Author of a 2026 paper in *Computers & Operations Research*; second paper under review at *Engineering Optimization*
 - Expertise in large-scale mixed-integer optimization
 - Experience developing optimization software for industrial-scale planning problems
-- Interest in optimization, research engineering, and OR + ML applications
+- Developing graph neural network (GNN) and machine learning models for MILP difficulty prediction and solver guidance
+- Public portfolio of applied ML, GenAI, and RL projects on [GitHub](https://github.com/Venkat-Akhil-Ankem)
 
 ---
 
@@ -47,7 +48,7 @@ I build optimization models, algorithms, and software systems in **C++** and **P
 - Relax-and-repair frameworks
 - Rolling-horizon heuristics
 - Large Neighborhood Search
-- Machine learning for optimization
+- Graph neural networks and machine learning for optimization
 
 ---
 
@@ -66,6 +67,7 @@ I build optimization models, algorithms, and software systems in **C++** and **P
 I am interested in roles related to:
 
 - Optimization Scientist
+- ML Optimization Engineer
 - Operations Research Scientist
 - Research Engineer
 - Decision Support Systems

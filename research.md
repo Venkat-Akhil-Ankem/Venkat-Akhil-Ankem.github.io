@@ -23,6 +23,7 @@ My work focuses on improving solvability through:
 - **Relax-and-repair frameworks** for rapidly obtaining feasible solutions
 - **Rolling-horizon decomposition**
 - **Large Neighborhood Search (LNS)** for solution improvement
+- **Graph neural networks and machine learning** to predict instance difficulty and guide solver strategy
 - **Research software development** for large computational studies
 
 ---
@@ -34,6 +35,7 @@ My work focuses on improving solvability through:
 - Combinatorial optimization
 - Heuristics and metaheuristics
 - Algorithm design
+- Machine learning for optimization (GNNs, supervised learning)
 - Research software engineering
 
 ---

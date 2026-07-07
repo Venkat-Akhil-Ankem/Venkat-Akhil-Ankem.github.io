@@ -10,7 +10,7 @@
 
 ## Professional Summary
 
-Ph.D. Candidate in Industrial Engineering at Polytechnique Montréal and researcher at GERAD, specializing in operations research and large-scale optimization.
+Ph.D. Candidate in Industrial Engineering at Polytechnique Montréal and researcher at GERAD, specializing in operations research, large-scale optimization, and applied machine learning.
 
 My work combines:
 
@@ -18,6 +18,7 @@ My work combines:
 - cutting planes and model strengthening
 - heuristic frameworks
 - large-scale computational experimentation
+- graph neural networks and machine learning for optimization
 - optimization software development in C++ and Python
 
 ---
@@ -29,13 +30,15 @@ My work combines:
 - Algorithm design
 - Heuristic and metaheuristic methods
 - Research software development
-- Optimization and machine learning integration
+- Graph neural networks and machine learning integration
+- Applied machine learning (supervised learning, reinforcement learning)
 
 ---
 
 ## Career Interests
 
 - Optimization Scientist
+- ML Optimization Engineer
 - Operations Research roles
 - Research Engineering
 - Decision Support Systems

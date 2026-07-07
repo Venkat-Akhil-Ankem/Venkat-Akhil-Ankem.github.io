@@ -52,13 +52,27 @@ Development of modular optimization codebases for:
 ---
 
 ## Machine Learning for Optimization
-Exploration of machine learning techniques to enhance optimization performance.
+Development of GNN- and ML-based models to predict MILP instance difficulty and guide solver strategy for open-pit mine scheduling.
 
 **Directions**
 - learned heuristics
 - solver guidance
 - intelligent initialization
+- MILP instance difficulty prediction (supervised learning)
 - data-driven decision support
+
+**Tech Stack**
+Python, PyTorch, scikit-learn
+
+---
+
+## GitHub Portfolio Projects
+Applied ML, GenAI, and RL projects built to demonstrate breadth beyond core OR research. See [github.com/Venkat-Akhil-Ankem](https://github.com/Venkat-Akhil-Ankem).
+
+- **Mine Production AI Optimizer** — GNN/ML pipeline for MILP difficulty prediction and solver guidance on open-pit scheduling instances
+- **ML Scheduling Difficulty Predictor** — supervised learning models (scikit-learn) predicting solve time and difficulty from instance structure
+- **RL Job Scheduler** — reinforcement learning approach to job/production scheduling problems
+- **Research Paper AI Assistant** — LLM-based tool supporting literature review and academic writing workflows
 
 ---
 

@@ -1,0 +1,91 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ---- Custom overrides: keep everything below this line ---- */
+
+:root {
+  --accent: #1f4e5f;      /* deep teal-blue — professional, not corporate-blue-default */
+  --accent-light: #e8eef0;
+  --text-body: #2a2a2a;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--text-body);
+  line-height: 1.65;
+}
+
+.wrapper {
+  max-width: 860px;
+}
+
+header h1 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+header p {
+  color: #555;
+  font-size: 1.05em;
+}
+
+header img {
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+a:hover {
+  border-bottom-color: var(--accent);
+}
+
+h2 {
+  margin-top: 2.2em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid var(--accent-light);
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 2em 0;
+}
+
+ul li, ol li {
+  margin-bottom: 0.35em;
+}
+
+blockquote {
+  border-left: 3px solid var(--accent);
+  background: var(--accent-light);
+  padding: 0.8em 1.2em;
+  color: #444;
+  font-style: normal;
+}
+
+strong {
+  color: #111;
+}
+
+/* nav links at top of page (Research | Projects | Publications | CV | Contact) */
+p a {
+  font-weight: 500;
+}
+
+footer {
+  color: #999;
+  font-size: 0.85em;
+}

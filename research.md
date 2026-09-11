@@ -2,60 +2,24 @@
 
 [Home](index) | [Projects](projects) | [Publications](publications) | [CV](cv) | [Contact](contact)
 
-My doctoral research focuses on the **Open-Pit Mine Production Scheduling Problem (OPMPSP)**, a large-scale mixed-integer optimization problem arising in mining operations.
+My doctoral research addresses the **Open-Pit Mine Production Scheduling Problem (OPMPSP)** — a large-scale mixed-integer optimization problem involving multi-period block-extraction decisions, precedence constraints, and resource limits, at a scale where exact solvers alone don't finish in time and heuristics alone aren't strong enough.
 
-These problems involve:
+## Contributions
 
-- very large decision spaces
-- complex precedence relationships
-- multi-period planning decisions
-- operational and economic trade-offs
-- substantial computational difficulty at industrial scale
+- **Cutting planes** that strengthen the MILP formulation directly, tightening LP relaxation bounds and reducing branch-and-bound search on instances with 100,000+ variables
+- **Relax-and-repair frameworks** and a parallel warm-start hybrid heuristic for quickly obtaining feasible solutions on instances too large to solve to optimality
+- **Rolling-horizon decomposition** to break multi-period planning into tractable sub-problems without losing solution quality
+- **Graph neural networks and supervised ML** to predict instance difficulty and steer solver strategy before a run starts, trained on benchmark datasets built from Rio Tinto's real mine models via structured augmentation
+- Research software engineering (C++/OpenMP, Python) to make these methods reproducible at industrial scale
 
----
+## Impact
 
-## Research Contributions
+Through a three-year MITACS industrial collaboration with Rio Tinto, these methods cut mine-scheduling computation time by **90%** and time-to-feasibility by **80%** — and were deployed directly into Rio Tinto's production planning workflows, not left as a research prototype. The formal collaboration ran 2022–2025; I continue monthly technical check-ins with the team. See [Publications](publications) for the papers and [Projects](projects) for the software this work produced.
 
-My work focuses on improving solvability through:
+## Application areas
 
-- **Cutting planes** for strengthening MILP formulations
-- **Extended formulations** for improving model structure
-- **Relax-and-repair frameworks** for rapidly obtaining feasible solutions
-- **Rolling-horizon decomposition**
-- **Large Neighborhood Search (LNS)** for solution improvement
-- **Graph neural networks and machine learning** to predict instance difficulty and guide solver strategy
-- **Research software development** for large computational studies
+Mining operations and mine production scheduling are the primary testbed, but the underlying methods — MILP strengthening, decomposition, and ML-guided heuristics — generalize to transportation and logistics, aviation and flight operations, and other large-scale industrial decision-support systems.
 
----
+## Research vision
 
-## Research Themes
-
-- Mixed-integer programming
-- Large-scale optimization
-- Combinatorial optimization
-- Heuristics and metaheuristics
-- Algorithm design
-- Machine learning for optimization (GNNs, supervised learning)
-- Research software engineering
-
----
-
-## Application Areas
-
-- Mining operations
-- Mine production scheduling
-- Transportation and logistics
-- Aviation and flight operations
-- Industrial decision support systems
-
----
-
-## Research Vision
-
-My goal is to develop optimization methods that are:
-
-- mathematically strong
-- computationally scalable
-- practically deployable
-
-for large industrial systems where exact methods, heuristics, and software design must work together.
+I want optimization methods that are mathematically strong, computationally scalable, and actually deployable — which in practice means exact methods, heuristics, and software design have to be designed together, not bolted on after the fact.

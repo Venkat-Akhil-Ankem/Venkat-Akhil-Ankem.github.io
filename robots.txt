@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://venkat-akhil-ankem.github.io/portfolio_new/sitemap.xml
+Sitemap: https://venkat-akhil-ankem.github.io/sitemap.xml

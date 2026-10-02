@@ -4,7 +4,7 @@ Personal portfolio website of **Venkat Akhil Ankem**, Ph.D. candidate in Industr
 
 Built with the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme (v1.x). The site is deployed automatically to GitHub Pages on every push to `main` via `.github/workflows/deploy.yml`.
 
-**Live site:** https://venkat-akhil-ankem.github.io/portfolio_new/
+**Live site:** https://venkat-akhil-ankem.github.io/
 
 ## Local development
 
@@ -15,7 +15,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Then open http://localhost:4000/portfolio_new/.
+Then open http://localhost:4000/.
 
 ## Customizing
 

@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Optimization and machine-learning projects — deep RL, GNNs, and scheduling.
 nav: true
 nav_order: 3
 display_categories: [work, fun]

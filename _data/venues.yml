@@ -1,9 +1,19 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"C&OR":
+  url: https://www.sciencedirect.com/journal/computers-and-operations-research
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Eng. Opt.":
+  url: https://www.tandfonline.com/journals/geno20
+  color: "#007a33"
 
-"Vision":
-  color: "#009f36"
+"Comp. Struct.":
+  url: https://www.sciencedirect.com/journal/composite-structures
+  color: "#6a1b9a"
+
+"Comp. Res.":
+  url: https://www.compositesres.com/
+  color: "#00838f"
+
+"J. Adhes. Sci. Tech.":
+  url: https://www.tandfonline.com/journals/tast20
+  color: "#b26a00"

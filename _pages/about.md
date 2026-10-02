@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. Candidate in Industrial Engineering (Operations Research) · Polytechnique Montréal / GERAD
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Montréal, QC, Canada</p>
+    <p>Targeting full-time industry roles starting Summer 2027</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +21,13 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Ph.D. candidate in Industrial Engineering (Operations Research) at **Polytechnique Montréal / GERAD**, supervised by Prof. Guy Desaulniers and Prof. Michel Gamache. My research develops cutting planes, heuristics, and machine-learning-guided methods for **large-scale mixed-integer programming**, applied to open-pit mine production scheduling with 100,000+ variables.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Through a three-year MITACS-funded industrial collaboration with **Rio Tinto** (2022–2025, with continued monthly advisory since), my methods achieved a **90% reduction in computation time** and an **80% reduction in time-to-feasibility**, deployed into the company's production planning workflows. My current doctoral project integrates graph neural networks and supervised learning for MILP instance-difficulty prediction and solver guidance, trained on large benchmark datasets built from Rio Tinto's industrial mine models.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My work sits at the intersection of rigorous mathematical optimization and applied machine learning — including deep reinforcement learning (PPO, DQN, Q-learning) built from scratch in PyTorch. I am targeting a full-time **Optimization Scientist / OR Scientist / Algorithm Engineer** role starting **Summer 2027**, following my Ph.D. defense (expected April–May 2027).

@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Venkat-Akhil-Ankem
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Venkat-Akhil-Ankem/ppo-mine-scheduling
+  - Venkat-Akhil-Ankem/mine-ai-optimizer
+  - Venkat-Akhil-Ankem/ml-scheduling-difficulty
+  - Venkat-Akhil-Ankem/rl-job-scheduler
+  - Venkat-Akhil-Ankem/dqn-cartpole
+  - Venkat-Akhil-Ankem/paper-ai-assistant

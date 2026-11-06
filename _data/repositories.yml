@@ -5,6 +5,7 @@ repo_description_lines_max: 2
 
 github_repos:
   - Venkat-Akhil-Ankem/ppo-mine-scheduling
+  - Venkat-Akhil-Ankem/or-verifier
   - Venkat-Akhil-Ankem/mine-ai-optimizer
   - Venkat-Akhil-Ankem/ml-scheduling-difficulty
   - Venkat-Akhil-Ankem/rl-job-scheduler

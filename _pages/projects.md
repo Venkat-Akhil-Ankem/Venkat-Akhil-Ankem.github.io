@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Optimization and machine-learning projects — deep RL, GNNs, and scheduling.
+description: Optimization and machine-learning projects — deep RL, GNNs, LLM evaluation, and scheduling.
 nav: true
 nav_order: 3
 display_categories: [work, fun]

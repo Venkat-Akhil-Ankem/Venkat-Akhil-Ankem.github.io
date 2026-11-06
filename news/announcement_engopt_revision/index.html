@@ -49,7 +49,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Optimization and machine-learning projects — deep RL, GNNs, and scheduling.",
+          description: "Optimization and machine-learning projects — deep RL, GNNs, LLM evaluation, and scheduling.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -82,41 +82,46 @@ ninja.data = [{
           description: "Deep reinforcement learning agent that learns NPV-maximising open-pit extraction sequences.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_ppo_mine_scheduling/";
+            },},{id: "projects-or-verifier",
+          title: 'OR-Verifier',
+          description: "Solver-verified evaluation and GRPO training for LLMs that write optimisation models.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_or_verifier/";
             },},{id: "projects-gnn-for-milp-difficulty-prediction",
           title: 'GNN for MILP Difficulty Prediction',
           description: "Machine-learning models that predict MILP instance difficulty and guide solver strategy.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_gnn_milp_difficulty/";
+              window.location.href = "/projects/3_gnn_milp_difficulty/";
             },},{id: "projects-rl-job-scheduler",
           title: 'RL Job Scheduler',
           description: "Tabular Q-learning agent for parallel machine scheduling.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_rl_job_scheduler/";
+              window.location.href = "/projects/4_rl_job_scheduler/";
             },},{id: "projects-dqn-cartpole",
           title: 'DQN CartPole',
           description: "Deep Q-Network implemented from scratch in PyTorch and Gymnasium.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_dqn_cartpole/";
+              window.location.href = "/projects/5_dqn_cartpole/";
             },},{id: "projects-ml-guided-variable-fixing-for-mine-scheduling",
           title: 'ML-Guided Variable Fixing for Mine Scheduling',
           description: "Machine learning to accelerate Gurobi on open-pit mine production scheduling MIPs.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_ml_variable_fixing/";
+              window.location.href = "/projects/6_ml_variable_fixing/";
             },},{id: "projects-ml-scheduling-difficulty-predictor",
           title: 'ML Scheduling Difficulty Predictor',
           description: "PyTorch neural network that predicts whether a scheduling instance is hard or easy — without running a solver.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_ml_scheduling_difficulty/";
+              window.location.href = "/projects/7_ml_scheduling_difficulty/";
             },},{id: "projects-research-paper-ai-assistant",
           title: 'Research Paper AI Assistant',
           description: "GenAI tool that reads paper abstracts and delivers structured summaries, contributions, and Q&amp;A.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_paper_ai_assistant/";
+              window.location.href = "/projects/8_paper_ai_assistant/";
             },},{id: "projects-minelib-optimization-framework",
           title: 'MineLib Optimization Framework',
           description: "Research-grade Python codebase for open-pit mine scheduling on the MineLib benchmark library.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_minelib_framework/";
+              window.location.href = "/projects/9_minelib_framework/";
             },},{
         id: 'social-cv',
         title: 'CV',

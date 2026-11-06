@@ -1,0 +1,201 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> DQN CartPole | Venkat Akhil Ankem </title> <meta name="author" content="Venkat Akhil Ankem"> <meta name="description" content="Deep Q-Network implemented from scratch in PyTorch and Gymnasium."> <meta name="keywords" content="operations research, optimization, mixed-integer programming, machine learning, deep reinforcement learning, portfolio"> <meta property="og:site_name" content="Venkat Akhil Ankem"> <meta property="og:type" content="website"> <meta property="og:title" content="Venkat Akhil Ankem | DQN CartPole"> <meta property="og:url" content="https://venkat-akhil-ankem.github.io/projects/5_dqn_cartpole/"> <meta property="og:description" content="Deep Q-Network implemented from scratch in PyTorch and Gymnasium."> <meta property="og:image" content="https://venkat-akhil-ankem.github.ioprof_pic.jpg"> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="DQN CartPole"> <meta name="twitter:description" content="Deep Q-Network implemented from scratch in PyTorch and Gymnasium."> <meta name="twitter:image" content="https://venkat-akhil-ankem.github.ioprof_pic.jpg"> <script type="application/ld+json">
+    {
+        "author":
+        {
+            "@type": "Person",
+            "name": "Venkat Akhil Ankem"
+        },
+        "url": "https://venkat-akhil-ankem.github.io/projects/5_dqn_cartpole/",
+        "@type": "WebSite",
+        "description": "Deep Q-Network implemented from scratch in PyTorch and Gymnasium.",
+        "headline": "DQN CartPole",
+        
+        "sameAs": [null,"https://github.com/Venkat-Akhil-Ankem","https://www.linkedin.com/in/venkatakhilankem","https://scholar.google.com/citations?user=VUWUWPcAAAAJ","https://orcid.org/0000-0002-3957-3784"],
+        
+        "name": "Venkat Akhil Ankem",
+        "@context": "https://schema.org"
+    }
+  </script> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://venkat-akhil-ankem.github.io/projects/5_dqn_cartpole/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> <link rel="stylesheet" href="/assets/al_email_protect/css/email-protect.css"> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Venkat</span> Akhil Ankem </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">repositories </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">DQN CartPole</h1> <p class="post-description">Deep Q-Network implemented from scratch in PyTorch and Gymnasium.</p> </header> <article> <p>A faithful implementation of the Deep Q-Network (Mnih et al., 2015), written <strong>from scratch in PyTorch/Gymnasium</strong> as a deep-RL foundations exercise.</p> <p><strong>Implementation.</strong></p> <ul> <li>Experience replay buffer and target network with periodic hard updates</li> <li>ε-greedy exploration with decay schedule</li> <li>Huber loss and gradient clipping for training stability</li> <li>Unit-tested with pytest</li> </ul> <p><strong>Stack.</strong> Python, PyTorch, Gymnasium, pytest.</p> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Venkat Akhil Ankem. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "about",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-publications",
+          title: "publications",
+          description: "publications by categories in reversed chronological order. generated by jekyll-scholar.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Optimization and machine-learning projects — deep RL, GNNs, LLM evaluation, and scheduling.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "Selected GitHub repositories.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Curriculum vitae of Venkat Akhil Ankem — Ph.D. candidate in Industrial Engineering (Operations Research) at Polytechnique Montréal / GERAD.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "news-my-three-year-mitacs-industrial-collaboration-with-rio-tinto-concluded-the-cutting-plane-and-rolling-horizon-methods-developed-during-this-research-work-cut-mine-scheduling-computation-time-by-90-and-time-to-feasibility-by-85-on-real-life-industrial-mine-planning-instances-i-continue-to-discuss-the-mine-scheduling-research-with-the-team-through-monthly-check-ins",
+          title: 'My three-year MITACS industrial collaboration with Rio Tinto concluded. The cutting-plane and rolling-horizon...',
+          description: "",
+          section: "News",},{id: "news-our-second-mine-scheduling-paper-a-relax-and-repair-framework-and-a-parallel-warm-start-hybrid-heuristic-for-open-pit-mine-production-scheduling-is-under-major-revision-at-engineering-optimization",
+          title: 'Our second mine-scheduling paper — “A relax-and-repair framework and a parallel warm-start hybrid...',
+          description: "",
+          section: "News",},{id: "news-our-paper-new-cutting-planes-for-open-pit-mine-scheduling-with-multi-period-block-extraction-is-published-in-computers-amp-amp-operations-research-vol-189-107408-read-it-here",
+          title: 'Our paper “New cutting planes for open-pit mine scheduling with multi-period block extraction”...',
+          description: "",
+          section: "News",},{id: "projects-ppo-mine-block-sequencing",
+          title: 'PPO Mine Block Sequencing',
+          description: "Deep reinforcement learning agent that learns NPV-maximising open-pit extraction sequences.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_ppo_mine_scheduling/";
+            },},{id: "projects-or-verifier",
+          title: 'OR-Verifier',
+          description: "Solver-verified evaluation and GRPO training for LLMs that write optimisation models.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_or_verifier/";
+            },},{id: "projects-gnn-for-milp-difficulty-prediction",
+          title: 'GNN for MILP Difficulty Prediction',
+          description: "Machine-learning models that predict MILP instance difficulty and guide solver strategy.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_gnn_milp_difficulty/";
+            },},{id: "projects-rl-job-scheduler",
+          title: 'RL Job Scheduler',
+          description: "Tabular Q-learning agent for parallel machine scheduling.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_rl_job_scheduler/";
+            },},{id: "projects-dqn-cartpole",
+          title: 'DQN CartPole',
+          description: "Deep Q-Network implemented from scratch in PyTorch and Gymnasium.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_dqn_cartpole/";
+            },},{id: "projects-ml-guided-variable-fixing-for-mine-scheduling",
+          title: 'ML-Guided Variable Fixing for Mine Scheduling',
+          description: "Machine learning to accelerate Gurobi on open-pit mine production scheduling MIPs.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_ml_variable_fixing/";
+            },},{id: "projects-ml-scheduling-difficulty-predictor",
+          title: 'ML Scheduling Difficulty Predictor',
+          description: "PyTorch neural network that predicts whether a scheduling instance is hard or easy — without running a solver.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_ml_scheduling_difficulty/";
+            },},{id: "projects-research-paper-ai-assistant",
+          title: 'Research Paper AI Assistant',
+          description: "GenAI tool that reads paper abstracts and delivers structured summaries, contributions, and Q&amp;A.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_paper_ai_assistant/";
+            },},{id: "projects-minelib-optimization-framework",
+          title: 'MineLib Optimization Framework',
+          description: "Research-grade Python codebase for open-pit mine scheduling on the MineLib benchmark library.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_minelib_framework/";
+            },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/venkat-ankem-cv.pdf", "_blank");
+        },
+      },{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%76%65%6E%6B%61%74.%61%6E%6B%65%6D%39%33@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/Venkat-Akhil-Ankem", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/venkatakhilankem", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=VUWUWPcAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-3957-3784", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> <script defer src="/assets/al_email_protect/js/email-protect.js"></script> </body> </html>
